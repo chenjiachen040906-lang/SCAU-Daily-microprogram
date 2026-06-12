@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.hbuilderx/
+unpackage/
+.env
+.env.local
+*.log
