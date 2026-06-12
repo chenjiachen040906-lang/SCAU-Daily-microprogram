@@ -256,7 +256,7 @@ async function handleBind() {
 </script>
 
 <style lang="scss" scoped>
-@import '@/styles/variables.scss';
+@use '../../styles/variables' as *;
 
 .login-page {
   position: relative;

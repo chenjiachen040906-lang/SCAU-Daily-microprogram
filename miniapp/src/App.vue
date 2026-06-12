@@ -14,7 +14,7 @@ onShow(() => {
 </script>
 
 <style lang="scss">
-@import './styles/variables.scss';
+@use './styles/variables' as *;
 
 page {
   font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue',

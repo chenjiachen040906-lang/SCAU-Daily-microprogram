@@ -2,6 +2,7 @@ node_modules/
 dist/
 .hbuilderx/
 unpackage/
+package-lock.json
 .env
 .env.local
 *.log

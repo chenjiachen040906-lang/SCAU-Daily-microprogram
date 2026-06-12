@@ -99,8 +99,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
-import { onMounted, onShow } from '@dcloudio/uni-app'
+import { ref, computed, onMounted } from 'vue'
+import { onShow } from '@dcloudio/uni-app'
 import { useScheduleStore } from '@/store/schedule'
 import {
   SECTION_TIMES,
@@ -333,7 +333,7 @@ function showCourseDetail(course: Course) {
 </script>
 
 <style lang="scss" scoped>
-@import '@/styles/variables.scss';
+@use '../../styles/variables' as *;
 
 /* ─── Page Container ─── */
 .page {
