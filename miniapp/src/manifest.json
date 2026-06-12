@@ -1,0 +1,21 @@
+{
+  "name": "SCAU Daily",
+  "appid": "",
+  "description": "华南农业大学校园大脑外挂",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "optimization": {
+      "subPackages": true
+    }
+  }
+}

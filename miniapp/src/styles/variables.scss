@@ -1,0 +1,62 @@
+// SCSS Variables — SCAU Daily Design Tokens
+
+// Brand colors
+$brand-green: #007A49;
+$brand-green-light: #E8F5E9;
+$brand-green-dark: #005C37;
+
+// Neutral colors
+$text-primary: #1A1A1A;
+$text-secondary: #666666;
+$text-hint: #999999;
+$text-white: #FFFFFF;
+
+$bg-color: #F5F6FA;
+$bg-white: #FFFFFF;
+$bg-card: #FFFFFF;
+
+$border-color: #EEEEEE;
+$divider-color: #F0F0F0;
+
+// Functional colors
+$color-red: #FF4D4F;
+$color-orange: #FF9C00;
+$color-blue: #1890FF;
+$color-purple: #722ED1;
+$color-cyan: #13C2C2;
+$color-green: #52C41A;
+
+// Course color palette (for course cards)
+$course-colors: (
+  #007A49, #1890FF, #722ED1, #FF9C00, #FF4D4F,
+  #13C2C2, #EB2F96, #2F54EB, #FA8C16, #A0D911
+);
+
+// Spacing
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+// Border radius
+$radius-sm: 12rpx;
+$radius-md: 20rpx;
+$radius-lg: 28rpx;
+$radius-full: 999rpx;
+
+// Font sizes
+$font-xs: 22rpx;
+$font-sm: 24rpx;
+$font-md: 28rpx;
+$font-lg: 32rpx;
+$font-xl: 36rpx;
+$font-xxl: 44rpx;
+
+// Shadows
+$shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.04);
+$shadow-md: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 8rpx 32rpx rgba(0, 0, 0, 0.12);
+
+// Status bar
+$status-bar-height: var(--status-bar-height, 44px);
